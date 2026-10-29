@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dice Roller</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen bg-white flex items-center justify-center font-sans">
+
+    <div class="w-[390px] max-w-[90%] bg-white rounded-3xl p-10 text-center shadow-2xl">
+
+        <h1 class="text-3xl font-bold text-gray-800 mb-7">
+            Dice Roller
+        </h1>
+
+       <img 
+           id="diceImage"
+           src="./image/dice 1.jpeg"
+           alt="Dice"
+           class="w-40 h-40 mx-auto mb-8"
+       >
+
+        <p class="text-xl font-semibold text-gray-800 mb-8">
+            <span id="resultText"></span>
+        </p>
+
+        <button
+            id="rollButton"
+            class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-6 rounded-2xl transition duration-300"
+        >
+            Roll the Dice
+        </button>
+
+    </div>
+
+    <script src="dice.js"></script>
+
+</body>
+</html>
